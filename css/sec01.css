@@ -305,7 +305,6 @@
     position: absolute;
     left:170vh;
     top: 745px;
- 
     text-align: center;
     height: 40%;
     width: auto;
@@ -351,7 +350,7 @@
 
 .caminhao {
     position: absolute;
-    top: 105%;
+    top: 1000px;
     right: 50%;
     z-index: 2;
     animation: move 20s infinite;
