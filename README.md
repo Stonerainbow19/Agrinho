@@ -5,3 +5,4 @@
   <li>Série: 2°ano do EM</li>
   <li>Professora: Giovana de Campos Leminska</li>
 </ul>
+<img src="/img/terra.png">
