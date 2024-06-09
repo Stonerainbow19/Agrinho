@@ -293,7 +293,7 @@
 
 .campo {
     position: absolute;
-    top: 745px;
+    top: 725px;
     height: 40%;
     width: auto;
     z-index: 3;
@@ -304,8 +304,8 @@
   
     position: absolute;
     left:170vh;
-    top: 745px;
-    text-align: center;
+    top: 725px;
+
     height: 40%;
     width: auto;
     z-index: 3;
@@ -318,7 +318,7 @@
     width: 100%;
     height: 50px;
     background-color: rgb(65, 60, 60);
-    top: 1020px;
+    top: 1000px;
     z-index: 1;
     display: flex;
     justify-content: space-between;
