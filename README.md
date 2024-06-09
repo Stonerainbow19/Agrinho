@@ -1,4 +1,4 @@
-<h1 align="center"> <img src="/img/terra.png"> Projeto para o Concurso Agrinho de Programação</h1>
+<h1 align="center"> Projeto para o Concurso Agrinho de Programação</h1>
 <ul>
   <li>Aluno: Wesley Gonçalves Ribeiro</li>
   <li>Escola: Colégio Estadual do Paraná</li>
