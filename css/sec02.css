@@ -8,6 +8,7 @@
 
 
 .bloco {
+    border: 2px black solid;
     border-radius: 20px;
     margin: 20px auto;
     color: black;
