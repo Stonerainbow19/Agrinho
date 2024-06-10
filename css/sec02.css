@@ -7,6 +7,12 @@
 }
 
 
+.bloco {
+    border-radius: 20px;
+    box-shadow: 0 0 3px #FF0000;
+
+}
+
 h1 {
     font-size: 3em;
     color: black;
