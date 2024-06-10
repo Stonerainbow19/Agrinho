@@ -9,7 +9,8 @@
 
 .bloco {
     border-radius: 20px;
-    box-shadow: 100px 100px 100px #FF0000;
+    text-align: center;
+    margin-top: 30px;
 
 }
 
@@ -17,6 +18,5 @@
     font-size: 3em;
     color: black;
     margin-top: 2em;
-    text-align: center;
 
 }
