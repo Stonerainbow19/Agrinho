@@ -288,7 +288,7 @@
 
 .campo-cidade {
     position: relative;
-    top: 50%;
+    top: 25%;
     display: flex;
     justify-content: space-between;
 }
