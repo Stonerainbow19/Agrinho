@@ -9,13 +9,14 @@
 
 .bloco {
     border-radius: 20px;
-    box-shadow: 0 0 3px #FF0000;
+    box-shadow: 100px 100px 100px #FF0000;
 
 }
 
-h1 {
+.bloco h1 {
     font-size: 3em;
     color: black;
     margin-top: 2em;
+    text-align: center;
 
 }
