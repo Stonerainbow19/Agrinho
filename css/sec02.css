@@ -1,13 +1,23 @@
 #sec02 {
     height: 100vh;
     width: 100%;
-    background-color:antiquewhite; 
+    background-color:var(--tema); 
     display: flex;
     justify-content: center;
 }
 
 
-h1 {
+.bloco {
+    border: 2px black solid;
+    border-radius: 20px;
+    margin: 20px auto;
+    color: black;
+    width: 30%;
+    height: 30%;
+}
+
+.bloco h1 {
     font-size: 3em;
-    margin:auto 0 ;
+    margin-top: 2em;
+    text-align: center;
 }
