@@ -13,7 +13,7 @@
     --estrela:#fff;
     --cor_da_fonte: #ffffff;
     --tema:#ffffff;
-
+    
 }
 
 html {
@@ -27,3 +27,5 @@ body {
     color: var(--cor_da_fonte);
     font-family: 'Montserrat1', sans-serif;
 }
+
+
