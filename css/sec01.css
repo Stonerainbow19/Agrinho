@@ -297,14 +297,12 @@
     height: 40%;
     width: auto;
     z-index: 3;
-
 }
 
 .cidade {
     position: absolute;
     left:170vh;
     top: 725px;
-
     height: 40%;
     width: auto;
     z-index: 3;

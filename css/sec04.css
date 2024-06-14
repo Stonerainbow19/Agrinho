@@ -1,0 +1,7 @@
+#sec04 {
+    height: 110vh;
+    width: 100%;
+    background-color:var(--tema); 
+    display: flex;
+    justify-content: center;
+}

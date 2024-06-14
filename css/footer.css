@@ -1,0 +1,28 @@
+#rodape {
+    width: 100%;
+    height: 350px;
+    background: #464827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#redes {
+    display: flex;
+    justify-content:space-around ;
+    width: 300px;
+}
+
+#rodape_txt {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#rodape_txt a{
+    text-decoration: none;
+    color:white;
+}
+
+#rodape_txt p {
+    margin: 1em 0 ;
+}
