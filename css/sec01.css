@@ -408,7 +408,7 @@
 @media screen and (max-width: 500px) {
    /* Para mobile */
     #sec01{
-        height: 100vh;
+        height: 90vh;
         width: 100%;
         background-color: black;
         overflow: hidden;
