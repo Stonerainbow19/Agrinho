@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 500px) {
     /* Para mobile */
     @keyframes background_move {
         0% {
@@ -149,7 +149,7 @@
 
 
 
-@media screen and (min-width: 1720px){
+@media screen and (min-width: 1240px){
 /* Para desktop */
     @keyframes background_move {
         0% {
