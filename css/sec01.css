@@ -395,14 +395,6 @@
         z-index: 3;
     }
         */
-
-        .campo-cidade {
-            background-color: aqua;
-            width: 100%;
-            height: 100%;
-            /*overflow: auto;*/
-        
-        }
 }
 
 @media screen and (max-width: 500px) {
