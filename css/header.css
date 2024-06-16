@@ -22,7 +22,7 @@
 
 
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 500px) {
     /* Para mobile */
     #cabecalho {
         height: 10vh;
