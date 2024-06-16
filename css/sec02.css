@@ -18,6 +18,7 @@
         width: 60%;
         height: 60%;
         overflow: auto;
+        
     }
 
     .titulo-bloco {
@@ -38,6 +39,7 @@
         align-items: center;
         font-size: 1.5em;
         padding: 30px;
+
     }
 }
 
@@ -60,6 +62,7 @@
         width: 90%;
         height: 60%;
         overflow: auto;
+
     }
 
     .titulo-bloco {
@@ -72,6 +75,7 @@
         align-items: center;
         color: white;
         font-size: 20px;
+        
     }
 
     .txt-bloco {
@@ -80,6 +84,7 @@
         align-items: center;
         font-size: 1.2em;
         padding: 30px;
+
     }
 
 

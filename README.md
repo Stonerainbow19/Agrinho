@@ -6,4 +6,11 @@
   <li>Professora: Giovana de Campos Leminska</li>
 </ul>
 
+
+<p>Esse site foi desenvolvido com responsividade de tela, como apresentado abaixo</p>
+
+<p>Desktop</p>
 <img src="img/site.png" > 
+
+<p>Mobile</p>
+<img src="img/site-celular.jpg">
