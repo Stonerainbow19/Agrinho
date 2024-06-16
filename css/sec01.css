@@ -407,23 +407,32 @@
 
 @media screen and (min-width: 360px) {
    /* Para mobile */
-#sec01{
-    height: 70vh;
-    width: 100%;
-    background-color: black;
+    #sec01{
+        height: 60vh;
+        width: 100%;
+        background-color: black;
 
 
-}
-.titulo {
-    text-align: center;
-    padding: 1.5%;
-    font-weight: 100;
-}
+    }
+    .titulo {
+        text-align: center;
+        padding: 1.5%;
+        font-weight: 100;
+    }
 
-.titulo h1{
-    font-size: 1.5em;
-}
-.titulo h2{
-    font-size: 1em;
-}
+    .titulo h1{
+        font-size: 1.5em;
+    }
+    .titulo h2{
+        font-size: 1em;
+    }
+    .scroll_down {
+        position: absolute;
+        top: 55%;
+        right: 45%;
+
+    }
+
+
+
 }
