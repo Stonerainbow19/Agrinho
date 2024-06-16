@@ -6,4 +6,4 @@
   <li>Professora: Giovana de Campos Leminska</li>
 </ul>
 
-<img src="img/github.png" > 
+<img src="img/site.png" > 
