@@ -166,7 +166,7 @@
         height: 60vh;
         /*background: linear-gradient(45deg, #000000, #4B3300, #8B5E00, #000000);*/
         background-size: 400% 400%;
-        animation:background_move 30s ease infinite;
+        animation:background_move 10s ease infinite;
 
         color: white;
         font-family: Arial, sans-serif;
