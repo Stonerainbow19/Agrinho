@@ -1,5 +1,5 @@
 #sec02 {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-color:var(--tema); 
     display: flex;
@@ -10,7 +10,7 @@
 .bloco {
     border: 1px black solid;
     border-radius: 20px;
-    margin: 200px auto;
+    margin: 11em auto;
     color: black;
     width: 60%;
     height: 60%;

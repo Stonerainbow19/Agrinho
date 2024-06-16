@@ -1,6 +1,6 @@
 
 #cabecalho {
-    height: 7em;
+    height: 10vh;
     background-color: var(--tema);
     display: flex;
     justify-content: space-between;

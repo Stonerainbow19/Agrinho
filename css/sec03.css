@@ -78,6 +78,14 @@
 
 }
 
+.etapa-img {
+    width: 25px;
+    height: 25px;
+    transition: 1s all;
+}
+
+
+
 
 .progresso {
     position:absolute;
@@ -86,6 +94,7 @@
     width: 0%;
     background-color: #E8F360;
     z-index: 1;
+    transition: 1s all;
 }
 
 .etapa-progresso {
@@ -109,6 +118,9 @@
 
 .btn.desabilitado {
     cursor: not-allowed;
+    /*background-color: gray;*/
+    border: 3px solid gray;
+    color: var(--tema);
 
 }
 

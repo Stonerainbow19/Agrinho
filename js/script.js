@@ -34,10 +34,20 @@ else {
                                                                      BARRA DE PROGRESSO
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
+/*
+const img_agro = document.getElementById('agricultura');
+const img_pecuaria = document.getElementById('pecuaria');
+const img_industria = document.getElementById('transporte');
+const img_transporte = document.getElementById('industria');
+const img_tec_agro = document.getElementById('tecnologia');
+const img_form = document.getElementById('formulario');
+*/
+
 
 const progresso = document.getElementById('progresso');
 const btn_avancar = document.getElementById('btn-avancar');
 const btn_voltar = document.getElementById('btn-voltar');
+
 
 const etapas_de_progresso = document.querySelectorAll(".etapa-progresso");
 
@@ -57,6 +67,7 @@ const voltar = ()=> {
     }
     pagina();
     atualizar();
+    
 };
 
 
@@ -94,24 +105,43 @@ const atualizar = ()=> {
 const tela = document.getElementById('tela');
 
 const pagina = ()=> {
+
     switch(etapaAtual) {
         case 1:
-            tela.src = '../html/agricultura.html'
+            tela.src = 'html/agricultura.html';
+            //img_agro = 'img/agricultura-ativo.png';
             break
         case 2:
-            tela.src = '../html/pecuaria.html'
+            tela.src = 'html/pecuaria.html';
+            //img_pecuaria.src = 'img/pecuaria-ativo.png';
             break
         case 3:
-            tela.src = '../html/transporte.html'
+            tela.src = 'html/transporte.html';
+            //img_transporte.src = 'img/transporte-ativo.png';
             break
         case 4:
-            tela.src = '../html/industria.html'
+            tela.src = 'html/industria.html';
+            //img_industria.src = 'img/industria-ativo.png';
             break
         case 5:
-            tela.src = '../html/tec-campo.html'
+            tela.src = 'html/tec-campo.html';
+            //img_tec_agro.src = 'img/tecnologia_agricultura-ativo.png';
             break
         case 6:
-            tela.src = '../html/questionario.html'
+            tela.src = 'html/questionario.html';
+            //img_form.src='img/formulario-ativo.png';
+        
+}
+}
+
+/*
+const recarregarImagens = ()=> {
+    img_agro.src = 'img/agricultura.png'
+    img_pecuaria.src = 'img/pecuaria.png';
+    img_transporte.src = 'img/transporte.png';
+    img_industria.src = 'img/industria.png';
+    img_tec_agro.src = 'img/tecnologia_agricultura.png';
+    img_form.src='img/formulario.png';
 
 }
-}
+    */

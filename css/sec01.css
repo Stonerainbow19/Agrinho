@@ -1,5 +1,5 @@
 #sec01{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-color: black;
 
@@ -11,6 +11,8 @@
     padding: 2%;
     font-weight: 100;
 }
+
+
 .titulo h1{
     font-size: 4em;
 }
@@ -286,48 +288,6 @@
     animation: estrelas_piscando 5s linear infinite;
 }
 
-.campo-cidade {
-    display: flex;
-    justify-content: space-between;
-}
-
-.campo {
-    position: absolute;
-    top: 725px;
-    height: 40%;
-    width: auto;
-    z-index: 3;
-}
-
-.cidade {
-    position: absolute;
-    left:170vh;
-    top: 725px;
-    height: 40%;
-    width: auto;
-    z-index: 3;
-}
-
-
-
-.rua {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(65, 60, 60);
-    top: 1000px;
-    z-index: 1;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.listras {
-    width: 60px;
-    height: 5px;
-    background-color: yellow;
-}
-
 @keyframes move{
     0% {
         transform: translateX(-105vh);
@@ -344,12 +304,90 @@
 
 }
 
-
+/*
 .caminhao {
     position: absolute;
-    top: 1000px;
+    top: 260px;
     right: 50%;
     z-index: 2;
     animation: move 20s infinite;
 }
 
+.rua {
+
+    width: 100%;
+    height: 50px;
+    background-color: rgb(65, 60, 60);
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.listras {
+    width: 60px;
+    height: 5px;
+    background-color: yellow;
+}
+
+.campo-cidade {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    top: 90px;
+}
+
+.campo {
+
+    height: 40%;
+    width: auto;
+    z-index: 3;
+}
+
+.cidade {
+    height: 40%;
+    width: auto;
+    z-index: 3;
+}
+    */
+
+/*
+
+   
+}
+
+
+*/
+/*
+.posicao-campo-cidade {
+    background-color: aquamarine;
+    width: 100%;
+    height: 90vh;
+
+}
+
+
+.campo-cidade {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    top: 90vh;
+}
+
+.cidade img {
+    height: 18em;
+    width: auto;
+    z-index: 3;
+}
+
+.campo img {
+    height: 18em;
+    width: auto;
+    z-index: 3;
+}
+    */
