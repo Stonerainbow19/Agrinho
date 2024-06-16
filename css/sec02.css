@@ -9,6 +9,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
     }
 
     #objetivos {
@@ -23,6 +24,7 @@
         font-size: 3em;
         padding: 2%;
         margin-bottom: 3%;
+        overflow: hidden;
     }
 
     .itens {
@@ -66,11 +68,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
     }
 
     #objetivos {
         margin: auto;
         width: 100%;
+        overflow: hidden;
     }
 
     #sec02 h1{
@@ -79,7 +83,7 @@
         font-weight: bold;
         font-size: 1.5em;
         padding: 2%;
-        margin-bottom: 3%;
+        margin: 4% 0;
         flex-direction: column;
     }
 

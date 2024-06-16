@@ -130,7 +130,7 @@ const pagina = ()=> {
             break
         case 6:
             //tela.src = 'html/questionario.html';
-            tela.src = 'html/agricultura.html';
+            tela.src = 'https://forms.gle/AuEppmqJJi8WqQscA';
             
         
 }
