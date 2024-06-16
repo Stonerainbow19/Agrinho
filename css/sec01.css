@@ -404,3 +404,26 @@
         
         }
 }
+
+@media screen and (min-width: 360px) {
+   /* Para mobile */
+#sec01{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+
+
+}
+.titulo {
+    text-align: center;
+    padding: 1.5%;
+    font-weight: 100;
+}
+
+.titulo h1{
+    font-size: 1.5em;
+}
+.titulo h2{
+    font-size: 1em;
+}
+}
