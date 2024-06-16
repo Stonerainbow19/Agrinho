@@ -1,7 +1,10 @@
-#sec04 {
-    height: 110vh;
-    width: 100%;
-    background-color:var(--tema); 
-    display: flex;
-    justify-content: center;
+@media screen and (min-width: 1720px){
+/* Para desktop */
+    #sec04 {
+        height: 110vh;
+        width: 100%;
+        background-color:var(--tema); 
+        display: flex;
+        justify-content: center;
+    }
 }
