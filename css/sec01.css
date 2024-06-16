@@ -421,7 +421,7 @@
     }
 
     .titulo h1{
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     .titulo h2{
         font-size: 1em;
@@ -433,6 +433,61 @@
 
     }
 
+    .nuvens {
+        overflow: hidden;
+    }
+
+
+    
+    @keyframes nuvem_movimento_direita {
+        0% {
+            transform: translateX(-10%);
+        }
+
+        100% {
+            transform: translateX(250%);
+        }
+    }
+
+    @keyframes nuvem_movimento_esquerda {
+        0% {
+            transform: translateX(100%);
+        }
+
+        40% {
+            transition: translateX(-50%);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+
+    #nuvem1{
+        animation: nuvem_movimento_direita 12s infinite;
+        text-align: center;
+    }
+
+    #nuvem2 {
+        animation: nuvem_movimento_direita 10s infinite;
+    }
+
+    #nuvem3 {
+        display: none;
+        animation: nuvem_movimento_esquerda 10s infinite;
+    }
+
+    #nuvem4 {
+        animation: nuvem_movimento_esquerda 20s infinite;
+    }
+
+    #nuvem5 {
+        animation: nuvem_movimento_esquerda 15s infinite;
+    }
+
+    #nuvem6 {
+        animation: nuvem_movimento_esquerda 20s infinite;
+    }
 
 
 }
