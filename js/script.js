@@ -108,28 +108,30 @@ const pagina = ()=> {
 
     switch(etapaAtual) {
         case 1:
-            tela.src = 'html/agricultura.html';
-            //img_agro = 'img/agricultura-ativo.png';
+            //tela.src = 'html/agricultura.html';
+            tela.src = 'https://pt.wikipedia.org/wiki/Agricultura';
             break
         case 2:
-            tela.src = 'html/pecuaria.html';
-            //img_pecuaria.src = 'img/pecuaria-ativo.png';
+            //tela.src = 'html/pecuaria.html';
+            tela.src = 'https://pt.wikipedia.org/wiki/Pecu%C3%A1ria';
+            
             break
         case 3:
-            tela.src = 'html/transporte.html';
-            //img_transporte.src = 'img/transporte-ativo.png';
+            //tela.src = 'html/transporte.html';
+            tela.src = 'https://pt.wikipedia.org/wiki/Transporte';
             break
         case 4:
-            tela.src = 'html/industria.html';
-            //img_industria.src = 'img/industria-ativo.png';
+            //tela.src = 'html/industria.html';
+            tela.src = 'https://pt.wikipedia.org/wiki/Ind%C3%BAstria';
             break
         case 5:
-            tela.src = 'html/tec-campo.html';
-            //img_tec_agro.src = 'img/tecnologia_agricultura-ativo.png';
+            //tela.src = 'html/tec-campo.html';
+            tela.src = 'https://elysios.com.br/blog/10-tecnologias-para-o-campo-que-estao-impactando-toda-a-cadeia-de-valor-agricola-do-plantio-ate-a-agroindustria/';
             break
         case 6:
-            tela.src = 'html/questionario.html';
-            //img_form.src='img/formulario-ativo.png';
+            //tela.src = 'html/questionario.html';
+            tela.src = 'html/agricultura.html';
+            
         
 }
 }
