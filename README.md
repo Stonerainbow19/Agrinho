@@ -13,4 +13,4 @@
 <img src="img/site.png" > 
 
 <p>Mobile</p>
-<img src="img/site-celular.jpg">
+<img src="img/site-mobile.jpg" width="500" height="auto">
