@@ -8,3 +8,16 @@
         justify-content: center;
     }
 }
+
+@media screen and (min-width: 360px) {
+    /* Para mobile */
+    #sec04 {
+        height: 60vh;
+        width: 100%;
+        background-color:var(--tema); 
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
