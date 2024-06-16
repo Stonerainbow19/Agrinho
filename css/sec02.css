@@ -43,7 +43,7 @@
 
 @media screen and (min-width: 360px) {
     #sec02 {
-        height: 60vh;
+        height: 100vh;
         width: 100%;
         background-color:var(--tema); 
         display: flex;
