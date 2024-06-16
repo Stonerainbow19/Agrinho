@@ -77,17 +77,20 @@
         color: rgb(73, 97, 76);
         text-align: center;
         font-weight: bold;
-        font-size: 3em;
+        font-size: 1.5em;
         padding: 2%;
         margin-bottom: 3%;
+        flex-direction: column;
     }
 
     .itens {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        font-size: 0.8em;
+        font-size: 0.6em;
         font-weight: bold;
+        flex-direction: column;
+        align-items: center;
     }
 
     .item {
@@ -96,16 +99,16 @@
         flex-direction: column;
         align-items: center;
         background-color: rgb(205, 228, 206);
-        padding: 2%;
-        width: 400px;
-        height: 400px;
+        margin: 1%;
+        width: 260px;
+        height: 260px;
         border-radius: 50%;
     }
 
 
     .item img {
         height: auto;
-        width: 200px;
+        width: 100px;
     }
 
 
