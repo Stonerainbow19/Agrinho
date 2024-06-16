@@ -163,7 +163,7 @@
     #sec03 {
         background: linear-gradient(45deg, #E8F360 , #3E6228, #E8F360);
         width: 100%;
-        height: 110vh;
+        height: 100vh;
         /*background: linear-gradient(45deg, #000000, #4B3300, #8B5E00, #000000);*/
         background-size: 400% 400%;
         animation:background_move 10s ease infinite;
