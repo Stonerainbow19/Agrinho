@@ -13,31 +13,7 @@
 }
 
 
-@keyframes nuvem_movimento_direita {
-    0% {
-        transform: translateX(-3vh);
-    }
-    30% {
-        transform: translateX(100vh);
-    }
 
-    100% {
-        transform: translateX(190vh);
-    }
-}
-
-@keyframes nuvem_movimento_esquerda {
-    0% {
-        transform: translateX(180vh);
-    }
-
-    40% {
-        transition: translateX(-100vh);
-    }
-    100% {
-        transform: translateX(-204vh);
-    }
-}
 
 .nuvens {
     text-align: center;
@@ -45,30 +21,7 @@
 }
 
 
-#nuvem1{
-    animation: nuvem_movimento_direita 45s infinite;
-    text-align: center;
-}
 
-#nuvem2 {
-    animation: nuvem_movimento_direita 35s infinite;
-}
-
-#nuvem3 {
-    animation: nuvem_movimento_esquerda 30s infinite;
-}
-
-#nuvem4 {
-    animation: nuvem_movimento_esquerda 40s infinite;
-}
-
-#nuvem5 {
-    animation: nuvem_movimento_esquerda 50s infinite;
-}
-
-#nuvem6 {
-    animation: nuvem_movimento_esquerda 46s infinite;
-}
 
 
 @media screen and (min-width: 1720px){
@@ -80,6 +33,57 @@
         background-color: black;
 
 
+    }
+
+    @keyframes nuvem_movimento_direita {
+        0% {
+            transform: translateX(-3vh);
+        }
+        30% {
+            transform: translateX(100vh);
+        }
+    
+        100% {
+            transform: translateX(190vh);
+        }
+    }
+    
+    @keyframes nuvem_movimento_esquerda {
+        0% {
+            transform: translateX(180vh);
+        }
+    
+        40% {
+            transition: translateX(-100vh);
+        }
+        100% {
+            transform: translateX(-204vh);
+        }
+    }
+
+    #nuvem1{
+        animation: nuvem_movimento_direita 45s infinite;
+        text-align: center;
+    }
+    
+    #nuvem2 {
+        animation: nuvem_movimento_direita 35s infinite;
+    }
+    
+    #nuvem3 {
+        animation: nuvem_movimento_esquerda 30s infinite;
+    }
+    
+    #nuvem4 {
+        animation: nuvem_movimento_esquerda 40s infinite;
+    }
+    
+    #nuvem5 {
+        animation: nuvem_movimento_esquerda 50s infinite;
+    }
+    
+    #nuvem6 {
+        animation: nuvem_movimento_esquerda 46s infinite;
     }
 
     .scroll_down {
