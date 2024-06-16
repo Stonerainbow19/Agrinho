@@ -6,7 +6,7 @@
         background-color:var(--tema); 
         display: flex;
         justify-content: center;
-        overflow: auto;
+        overflow: hidden;
     }
 
 
