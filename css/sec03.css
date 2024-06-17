@@ -95,7 +95,7 @@
         left: 25%;
         height:6px;
         width: 0%;
-        background-color: #E8F360;
+        background-color: rgb(144, 196, 170);
         z-index: 1;
         transition: 1s all;
     }
@@ -115,7 +115,7 @@
 
 
     .etapa-progresso.ativo{
-        border: 3px solid #E8F360;
+        border: 3px solid rgb(144, 196, 170);
 
     }
 
