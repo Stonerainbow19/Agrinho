@@ -8,7 +8,7 @@ var time  = new Date()
 var hour = time.getHours()
 //var hour = 10
 //var hour = 18
-var hour = 22
+//var hour = 22
 
 const section = document.getElementById("sec01")
 
