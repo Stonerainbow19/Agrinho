@@ -4,15 +4,23 @@
     #sec01{
         height: 90vh;
         width: 100%;
-        background: (180deg, #0093E9 0%, #FA709A 100%);
-        overflow: hidden;
+        /*background:linear-gradient(#0093E9 0%, #c73f51 60%, #FEE140 100% );*/
+        overflow-x: hidden;
 
     }
 
     .titulo {
-        text-align: center;
-        padding: 2%;
+        width: 100%;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         font-weight: 100;
+
+
     }
 
 
@@ -26,55 +34,50 @@
 
     @keyframes nuvem_movimento_direita {
         0% {
-            transform: translateX(-3vh);
+            transform: translateX(0vh);
         }
-        30% {
-            transform: translateX(100vh);
-        }
-
         100% {
-            transform: translateX(190vh);
+            transform: translateX(100vh);
         }
     }
 
     @keyframes nuvem_movimento_esquerda {
         0% {
-            transform: translateX(180vh);
+            transform: translateX(200vh);
         }
 
-        40% {
-            transition: translateX(-100vh);
-        }
         100% {
-            transform: translateX(-204vh);
+            transition: translateX(0vh);
         }
     }
 
     .nuvens {
-        text-align: center;
-        overflow: hidden;
+        opacity: 0.8;
     }
-
+    
 
     #nuvem1{
-        animation: nuvem_movimento_direita 45s infinite;
-        text-align: center;
+        position: absolute;
+        top: 10%;
+        animation: nuvem_movimento_direita 20s infinite ease-in-out alternate;
     }
 
     #nuvem2 {
-        animation: nuvem_movimento_direita 35s infinite;
+        position: absolute;
+        top: 50%;
+        animation: nuvem_movimento_direita 15s infinite  ease-in-out alternate;
     }
 
     #nuvem3 {
-        animation: nuvem_movimento_esquerda 30s infinite;
+        animation: nuvem_movimento_esquerda 30s infinite ease-in-out alternate;
     }
 
     #nuvem4 {
-        animation: nuvem_movimento_esquerda 40s infinite;
+        animation: nuvem_movimento_esquerda 20s infinite ease-in-out alternate;
     }
 
     #nuvem5 {
-        animation: nuvem_movimento_esquerda 50s infinite;
+        animation: nuvem_movimento_esquerda 14s infinite ease-in-out alternate; 
     }
 
     #nuvem6 {
@@ -308,93 +311,49 @@
 
     }
 
-    /*
-    .caminhao {
+    @keyframes ondaAnimada {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+
+
+
+
+    .onda {
+        width: 100%;
+        height: 100px;
         position: absolute;
-        top: 260px;
-        right: 50%;
-        z-index: 2;
-        animation: move 20s infinite;
+        bottom: 0;
+        background-image: url('../img/onda.png');
+        background-image: 400px 100px;
+        animation: ondaAnimada 5s ease-in-out infinite alternate;
+    }
+    #onda1 {
+        z-index: 1000;
+        opacity: 1;
+        background-position-x: 400px;
     }
 
-    .rua {
-
-        width: 100%;
-        height: 50px;
-        background-color: rgb(65, 60, 60);
-        z-index: 1;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    #onda2{
+        z-index: 999;
+        opacity: 0.5;
+        background-position-x: 300px;
+    }
+    #onda3 {
+        z-index: 998;
+        opacity: 0.2;
+        background-position-x: 200px;
+    }
+    #onda4 {
+        z-index: 997;
+        opacity: 0.8;
+        background-position-x: 100px;
     }
 
-
-    .listras {
-        width: 60px;
-        height: 5px;
-        background-color: yellow;
-    }
-
-    .campo-cidade {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        align-items: end;
-
-        top: 90px;
-    }
-
-    .campo {
-
-        height: 40%;
-        width: auto;
-        z-index: 3;
-    }
-
-    .cidade {
-        height: 40%;
-        width: auto;
-        z-index: 3;
-    }
-    */
-
-    /*
-
-    
-    }
-
-
-    */
-    /*
-    .posicao-campo-cidade {
-        background-color: aquamarine;
-        width: 100%;
-        height: 90vh;
-
-    }
-
-
-    .campo-cidade {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        width: 100%;
-        top: 90vh;
-    }
-
-    .cidade img {
-        height: 18em;
-        width: auto;
-        z-index: 3;
-    }
-
-    .campo img {
-        height: 18em;
-        width: auto;
-        z-index: 3;
-    }
-        */
 }
 
 @media screen and (max-width: 500px) {
@@ -402,16 +361,66 @@
     #sec01{
         height: 90vh;
         width: 100%;
-        background-color: black;
-        overflow: hidden;
+        overflow: auto;
+        overflow-x:hidden ;
 
 
     }
     .titulo {
-        text-align: center;
-        padding: 1.5%;
-        margin-top:40% ;
-        font-weight: bold;
+        width: 100%;
+        z-index: -1;
+        display: flex;
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 4%;
+        font-weight: 100;
+
+
+    }
+
+    @keyframes ondaAnimada {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(30px);
+        }
+    }
+
+
+
+
+    .onda {
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        bottom: 0;
+        background-image: url('../img/onda.png');
+        background-image: 1000px 100px;
+        animation: ondaAnimada 5s ease-in-out infinite alternate;
+    }
+    #onda1 {
+        z-index: 1000;
+        opacity: 1;
+        background-position-x: 400px;
+    }
+
+    #onda2{
+        z-index: 999;
+        opacity: 0.5;
+        background-position-x: 300px;
+    }
+    #onda3 {
+        z-index: 998;
+        opacity: 0.2;
+        background-position-x: 200px;
+    }
+    #onda4 {
+        z-index: 997;
+        opacity: 0.8;
+        background-position-x: 100px;
     }
 
     .titulo h1{
@@ -428,59 +437,93 @@
     }
 
     .nuvens {
-        overflow: hidden;
+        text-align: center;
+        opacity: 0.8;
+        z-index: -3;
+    }
+    
+
+    #nuvem1{
+        position: absolute;
+        top: 20%;
+
+        animation: nuvem_movimento_direita 45s infinite;
     }
 
+    #nuvem2 {
+        position: absolute;
+        top: 50%;
+        animation: nuvem_movimento_direita 35s infinite;
+    }
+
+    #nuvem3 {
+        animation: nuvem_movimento_esquerda 30s infinite;
+    }
+
+    #nuvem4 {
+        animation: nuvem_movimento_esquerda 40s infinite;
+    }
+
+    #nuvem5 {
+        animation: nuvem_movimento_esquerda 50s infinite;
+    }
+
+    #nuvem6 {
+        animation: nuvem_movimento_esquerda 46s infinite;
+    }
 
     
+   
     @keyframes nuvem_movimento_direita {
         0% {
-            transform: translateX(-10%);
+            transform: translateX(0vh);
         }
-
         100% {
-            transform: translateX(250%);
+            transform: translateX(100vh);
         }
     }
 
     @keyframes nuvem_movimento_esquerda {
         0% {
-            transform: translateX(100%);
+            transform: translateX(100vh);
         }
 
-        40% {
-            transition: translateX(-50%);
-        }
         100% {
-            transform: translateX(-100%);
+            transition: translateX(0vh);
         }
     }
 
+    .nuvens {
+        opacity: 0.8;
+    }
+    
 
     #nuvem1{
-        animation: nuvem_movimento_direita 12s infinite;
-        text-align: center;
+        position: absolute;
+        top: 10%;
+        animation: nuvem_movimento_direita 20s infinite ease-in-out alternate;
     }
 
     #nuvem2 {
-        animation: nuvem_movimento_direita 10s infinite;
+        position: absolute;
+        top: 50%;
+        animation: nuvem_movimento_direita 15s infinite  ease-in-out alternate;
     }
 
     #nuvem3 {
-        display: none;
-        animation: nuvem_movimento_esquerda 10s infinite;
+        animation: nuvem_movimento_esquerda 30s infinite ease-in-out alternate;
     }
 
     #nuvem4 {
-        animation: nuvem_movimento_esquerda 20s infinite;
+        animation: nuvem_movimento_esquerda 20s infinite ease-in-out alternate;
     }
 
     #nuvem5 {
-        animation: nuvem_movimento_esquerda 15s infinite;
+        animation: nuvem_movimento_esquerda 14s infinite ease-in-out alternate; 
     }
 
     #nuvem6 {
-        animation: nuvem_movimento_esquerda 20s infinite;
+        animation: nuvem_movimento_esquerda 46s infinite;
     }
 
 

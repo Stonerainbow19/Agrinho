@@ -2,17 +2,23 @@
 /* Para desktop */
     #cabecalho {
         height: 10vh;
-        background-color: var(--tema);
+        /*background-color: var(--tema);*/
+        background: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        transition: 1s all ;
     }
 
     .container {
         display: flex;
         align-items: center;
         margin: 20px;
+    }
+
+    .container img {
+        width: 44px;
+        height: auto;
     }
 
     .container_img{
@@ -24,13 +30,14 @@
 
 @media screen and (max-width: 500px) {
     /* Para mobile */
-    #cabecalho {
+        #cabecalho {
         height: 10vh;
-        background-color: var(--tema);
+        /*background-color: var(--tema);*/
+        background: transparent;
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        transition: 1s all ;
     }
 
     .container {
@@ -48,6 +55,11 @@
 
     #envelope {
         display: none;
+    }
+
+    .container img {
+        width: 44px;
+        height: auto;
     }
 
 }

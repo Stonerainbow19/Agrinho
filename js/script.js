@@ -4,28 +4,28 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
                                                                
-var time  = new Date()
-var hour = time.getHours()
-//var hour = 10
-var hour = 18
-//var hour = 22
+let time  = new Date()
+let hour = time.getHours()
+//let hour = 10
+//let hour = 18
+//let hour = 22
 
 const section = document.getElementById("sec01")
-/*
+
 if (hour >= 6 && hour <= 16){
-    section.style.background = "linear-gradient(180deg, #0093E9 0%, #80D0C7 100%)"
+   document.body.style.background = "linear-gradient(180deg, #0093E9 0%, #80D0C7 100%)"
     document.documentElement.style.setProperty('--estrela', 'transparent' )
 
 }
 else if (hour >= 17 && hour <= 19){
-    section.style.background = 'linear-gradient(180deg, #FEE140 0%, #FA709A 100%)'
-    document.documentElement.style.setProperty('--estrela', '#fff' )
+    document.body.style.background = 'linear-gradient(#0093E9 0%, #c73f51 60%, #FEE140 100% )'
+    document.documentElement.style.setProperty('--estrela', 'transparent' )
 }
 else {
-    section.style.background= ' linear-gradient( 178.7deg,  rgba(126,184,253,1) 5.6%, rgba(2,71,157,1) 95.3% )'
+    document.body.style.background= ' linear-gradient( 178.7deg,  rgba(126,184,253,1) 5.6%, rgba(2,71,157,1) 95.3% )'
     document.documentElement.style.setProperty('--estrela', '#ffffff')
 }
-*/
+
 
 
 
@@ -147,3 +147,50 @@ const recarregarImagens = ()=> {
 
 }
     */
+
+
+/* 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     ANIMAÇÃO ONDAS
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+
+let onda1 = document.getElementById('onda1');
+let onda2 = document.getElementById('onda2');
+let onda3 = document.getElementById('onda3');
+let onda4 = document.getElementById('onda4');
+
+window.addEventListener('scroll', function(){
+    let rolagemPos = window.scrollY;
+
+    onda1.style.backgroundPositionX = 400 + rolagemPos * 4+'px';
+    onda2.style.backgroundPositionX = 300 + rolagemPos * -4+'px';
+    onda3.style.backgroundPositionX = 200 + rolagemPos * 2+'px';
+    onda4.style.backgroundPositionX = 100 + rolagemPos * -2*'px';
+})
+
+/* 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     MOSTRAR CABECALHO
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+let header = document.getElementById('cabecalho');
+let menu = document.getElementById('menu');
+let envelope = document.getElementById('envelope');
+
+function cabecalhoAtivado(){
+    header.style.backgroundColor = 'white';
+    menu.src='../img/menu-hamburguer.png';
+    envelope.src='../img/envelope.png';
+}
+
+function cabecalhoDesativado(){
+    header.style.background = 'transparent';
+    menu.src='../img/menu-hamburguer-branco.png';
+    envelope.src='../img/envelope-branco.png';
+}
+
+
+

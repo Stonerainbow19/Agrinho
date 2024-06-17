@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     color: var(--cor_da_fonte);
     font-family: 'Montserrat1', sans-serif;
+    overflow-x: hidden;
 }
 
 
