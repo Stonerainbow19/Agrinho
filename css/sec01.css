@@ -368,7 +368,7 @@
     }
     .titulo {
         width: 100%;
-        z-index: 1;
+        z-index: -1;
         position: fixed;
         text-align: center;
         padding-top: 4%;
@@ -441,29 +441,25 @@
     
 
     #nuvem1{
-        position: absolute;
-        top: 20%;
+
 
         animation: nuvem_movimento_direita 45s infinite;
     }
 
     #nuvem2 {
-        position: absolute;
-        top: 50%;
+
         animation: nuvem_movimento_direita 35s infinite;
     }
 
     #nuvem3 {
         animation: nuvem_movimento_esquerda 30s infinite;
-        position: absolute;
-        bottom: 30%;
+
 
     }   
 
     #nuvem4 {
         animation: nuvem_movimento_esquerda 40s infinite;
-        position: absolute;
-        bottom: 30%;
+
     }
 
     #nuvem5 {
