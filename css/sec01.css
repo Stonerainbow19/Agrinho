@@ -99,14 +99,9 @@
             height: 1px;
         }
 
-        50% {
-            width: 1.5px;
-            height: 1.5px;
-        }
-
         100% {
-            width: 1px;
-            height: 1px;
+            width: 1.25px;
+            height: 1.25px;
         }
 
     }
@@ -292,7 +287,7 @@
         1335px 872px var(--estrela), 1647px 1298px var(--estrela), 1233px 1387px var(--estrela), 698px 1036px var(--estrela),
         659px 1860px var(--estrela), 388px 1412px var(--estrela), 1212px 458px var(--estrela), 755px 1468px var(--estrela),
         696px 1654px var(--estrela), 1144px 60px var(--estrela);
-        animation: estrelas_piscando 5s linear infinite;
+        animation: estrelas_piscando 2s  infinite ease-in-out alternate;
     }
 
     @keyframes move{
