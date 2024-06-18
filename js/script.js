@@ -212,9 +212,9 @@ function cabecalhoDesativado(){
 const menu = document.getElementById('menu');
 const menuHamburguer = document.getElementById('checkbox-menu');
 
-
+/*
 if (menuHamburguer.checked) {
     menu.style.margin = ''
 }
-
+*/
 
