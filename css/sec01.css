@@ -396,6 +396,7 @@
         bottom: 0px;
         background-image: url('../img/onda.png');
         background-image: 400px 100px;
+        padding: 1%;
         /*animation: ondaAnimada 5s ease-in-out infinite alternate;*/
     }
     #onda1 {
