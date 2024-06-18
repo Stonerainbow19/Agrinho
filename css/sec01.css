@@ -368,8 +368,7 @@
     }
     .titulo {
         width: 100%;
-        z-index: -1;
-        display: block;
+        z-index: 1;
         position: fixed;
         text-align: center;
         padding-top: 4%;
@@ -456,18 +455,25 @@
 
     #nuvem3 {
         animation: nuvem_movimento_esquerda 30s infinite;
-    }
+        position: absolute;
+        bottom: 30%;
+
+    }   
 
     #nuvem4 {
         animation: nuvem_movimento_esquerda 40s infinite;
+        position: absolute;
+        bottom: 30%;
     }
 
     #nuvem5 {
         animation: nuvem_movimento_esquerda 50s infinite;
+        display: none;
     }
 
     #nuvem6 {
         animation: nuvem_movimento_esquerda 46s infinite;
+        display: none;
     }
 
     
@@ -477,13 +483,13 @@
             transform: translateX(0vh);
         }
         100% {
-            transform: translateX(120vh);
+            transform: translateX(40vh);
         }
     }
 
     @keyframes nuvem_movimento_esquerda {
         0% {
-            transform: translateX(120vh);
+            transform: translateX(40vh);
         }
 
         100% {
@@ -509,6 +515,7 @@
     }
 
     #nuvem3 {
+        display: none;
         animation: nuvem_movimento_esquerda 30s infinite ease-in-out alternate;
     }
 
@@ -517,6 +524,7 @@
     }
 
     #nuvem5 {
+        display: none;
         animation: nuvem_movimento_esquerda 14s infinite ease-in-out alternate; 
     }
 
