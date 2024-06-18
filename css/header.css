@@ -204,4 +204,9 @@
         top: 15px;
     }
 
+    #menu {
+        display: none;
+    }
+
+
 }
