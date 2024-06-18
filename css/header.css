@@ -155,4 +155,53 @@
         height: auto;
     }
 
+    #checkbox-menu {
+        position: absolute;
+        opacity: 0;
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        display: block;
+        height: 44px;
+        width: 44px;
+    }
+
+    label span {
+        position:absolute;
+        display: block;
+        height: 6px;
+        width: 100%;
+        border-radius: 40px;
+        background-color: white;
+        transition: 0.50s ease-in-out;
+        z-index: 2000;
+    }
+
+    label span:nth-child(1){
+        top: 0;
+    }
+    label span:nth-child(2){
+        top: 16px;
+    }
+    label span:nth-child(3){
+        top: 32px;
+    }
+
+    #checkbox-menu:checked + label span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 15px;
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(2) {
+        opacity: 0;
+
+    }
+    
+    #checkbox-menu:checked + label span:nth-child(3) {
+        transform: rotate(45deg);
+        top: 15px;
+    }
+
 }
