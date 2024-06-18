@@ -477,13 +477,13 @@
             transform: translateX(0vh);
         }
         100% {
-            transform: translateX(90vh);
+            transform: translateX(120vh);
         }
     }
 
     @keyframes nuvem_movimento_esquerda {
         0% {
-            transform: translateX(90vh);
+            transform: translateX(120vh);
         }
 
         100% {
