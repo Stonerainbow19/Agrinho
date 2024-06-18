@@ -435,7 +435,7 @@
     }
 
     .nuvens {
-        text-align: center;
+        text-align: end;
         opacity: 0.8;
         z-index: -3;
     }
@@ -444,32 +444,32 @@
     #nuvem1{
 
 
-        animation: nuvem_movimento_direita 45s infinite;
+        animation: nuvem_movimento_direita 45s infinite alternate;
     }
 
     #nuvem2 {
 
-        animation: nuvem_movimento_direita 35s infinite;
+        animation: nuvem_movimento_direita 35s infinite alternate;
     }
 
     #nuvem3 {
-        animation: nuvem_movimento_esquerda 30s infinite;
+        animation: nuvem_movimento_esquerda 30s infinite alternate;
 
 
     }   
 
     #nuvem4 {
-        animation: nuvem_movimento_esquerda 40s infinite;
+        animation: nuvem_movimento_esquerda 40s infinite alternate;
 
     }
 
     #nuvem5 {
-        animation: nuvem_movimento_esquerda 50s infinite;
+        animation: nuvem_movimento_esquerda 50s infinite alternate; 
         display: none;
     }
 
     #nuvem6 {
-        animation: nuvem_movimento_esquerda 46s infinite;
+        animation: nuvem_movimento_esquerda 46s infinite alternate;
         display: none;
     }
 
@@ -480,13 +480,13 @@
             transform: translateX(0vh);
         }
         100% {
-            transform: translateX(40vh);
+            transform: translateX(10px);
         }
     }
 
     @keyframes nuvem_movimento_esquerda {
         0% {
-            transform: translateX(40vh);
+            transform: translateX(10px);
         }
 
         100% {

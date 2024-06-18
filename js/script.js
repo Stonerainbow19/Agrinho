@@ -18,11 +18,11 @@ if (hour >= 6 && hour <= 16){
 
 }
 else if (hour >= 17 && hour <= 19){
-    document.body.style.background = 'linear-gradient(#0093E9 0%, #c73f51 60%, #FEE140 100% )'
+    document.body.style.background = 'linear-gradient(#0093E9 0%, #f14b0a 50% )'
     document.documentElement.style.setProperty('--estrela', 'transparent' )
 }
 else {
-    document.body.style.background= ' linear-gradient( 178.7deg,  rgba(126,184,253,1) 5.6%, rgba(2,71,157,1) 95.3% )'
+    document.body.style.background= 'linear-gradient(178.7deg, rgb(1, 36, 80) 0%,  rgba(126,184,253,1) 95.3% )'
     document.documentElement.style.setProperty('--estrela', '#ffffff')
 }
 
