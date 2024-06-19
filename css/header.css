@@ -8,6 +8,7 @@
         justify-content: space-between;
         align-items: center;
         transition: 0.5s ease-in-out;
+        position: relative;
     }
 
     .container {
@@ -28,43 +29,6 @@
 
 
 
-    .container-menu {
-        display: block;
-        position: relative;
-        top: 0px;
-        left:0px;
-
-        z-index: 3;
-
-        -webkit-user-select: none;
-        user-select: none;
-    }
-
-
-    .container-menu a {
-        text-decoration: none;
-        color: black;
-        transition: color 0.3 ease;
-    }
-
-    .container-menu a:hover {
-        color:darkgreen;
-    }
-
-
-
-    
-    #checkbox-menu {
-        position: absolute;
-        opacity: 0;
-        display: block;
-        width: 44px;
-        height: 43px;
-        z-index: 4;
-
-        -webkit-touch-callout: none;
-    }
-    
 
     label {
         cursor: pointer;
@@ -110,33 +74,37 @@
         top: 15px;
     }
 
-    #menu {
-        position: absolute;
-        top: -10px;
-        left: 500px;
-        width: 350px;
-        height: 350px;
-        margin: 0 0 0 60px;
-        padding: 50px;
-        padding-top: 125px;
+
+    .container-menu a {
+        color: black;
+        text-decoration: none;
+
+    }
+
+    .lista {
+        display: none;
+        position:absolute;
+        top: 100%;
         background-color: white;
-        list-style-type: none;
-        -webkit-font-smoothing: antialiased;
-        border-radius: 20px;
-        transform-origin: 0% 0%;
-        transform: translate(-100%, 0);
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        z-index: 40000;
+
     }
 
-    #menu li {
-        padding: 10px 0 ;
-        font-size: 1.3em;
+    #checkbox-menu:checked ~ .lista {
+        display: block;
     }
 
-    .container-menu input:checked ~ ul
-{
-  transform: none;
-}
+    #checkbox-menu {
+        display: none;
+    }
+
+    .lista-item {
+        padding: 12px 0;
+        display: none;
+    }
 
 
 }
