@@ -26,9 +26,33 @@
     }
 
 
-    #checkbox-menu {
-        position: absolute;
-        opacity: 0;
+
+
+    .container-menu {
+        display: block;
+        position: relative;
+        top: 50px;
+        left:50px;
+
+        z-index: 3;
+
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+
+    .container-menu a {
+        text-decoration: none;
+        color: black;
+        transition: color 0.3 ease;
+    }
+
+    .container-menu a:hover {
+        color:darkgreen;
+    }
+
+    #checkbox-menu input {
+        z-index: 0;
     }
 
     label {
@@ -74,47 +98,6 @@
         transform: rotate(45deg);
         top: 15px;
     }
-
-
-    #menu {
-        position:absolute;
-        right: -100px;
-        bottom: 100px;
-       /* bottom: ;
-        width: 800px;
-        height: 800px;
-        margin: -100px 0 0 -50px;
-       /* padding: 50px;
-        padding-top: 125px;*/
-
-        width: 800px;
-        height: 800px;
-        background: white;
-        opacity: 1;
-        /*
-        list-style-type: none; 
-        -webkit-font-smoothing: antialiased; */
-        display: flex;
-        justify-content:center;
-        flex-direction: column;
-        align-items:start;
-        z-index: 1999;
-        border-radius: 50%;
-        transition: 0.5s; 
-    }
-
-    #menu a {
-        text-decoration: none;
-        margin-left: 30px;
-    }
-
-
-    #menu li {
-        padding: 10px 0;
-        font-size: 1em;
-        color:black;
-    }
-
 
 
 }
@@ -157,7 +140,7 @@
 
     #checkbox-menu {
         position: absolute;
-        opacity: 0;
+        opacity: 1;
     }
 
     label {
@@ -204,9 +187,7 @@
         top: 15px;
     }
 
-    #menu {
-        display: none;
-    }
+    
 
 
 }
