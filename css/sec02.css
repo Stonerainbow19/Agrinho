@@ -1,5 +1,4 @@
-@media screen and (min-width: 501px){
-/* Para desktop */
+
 
     #sec02 {
         background-color: white;
@@ -18,7 +17,7 @@
     }
 
     #sec02 h1{
-        color: rgb(73, 97, 76);
+        color: var(--cor-segundaria);
         text-align: center;
         font-weight: bold;
         font-size: 3em;
@@ -39,7 +38,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(205, 228, 206);
+        background-color: var(--cor-principal);
         padding: 2%;
         width: 400px;
         height: 400px;
@@ -55,8 +54,6 @@
 
 
 
-
-}
 
 @media screen and (max-width: 500px) {
     #sec02 {
@@ -102,7 +99,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(205, 228, 206);
+        background-color: var(--cor-principal);
         margin: 1%;
         width: 260px;
         height: 260px;

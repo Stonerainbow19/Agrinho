@@ -1,5 +1,4 @@
 
-@media screen and (min-width: 501px){
 /* Para desktop */
     @keyframes background_move {
         0% {
@@ -15,7 +14,7 @@
 
 
     #sec03 {
-        background-color:rgb(205, 228, 206) ;
+        background-color: var(--cor-principal);
         width: 100%;
         height: 100vh;
         /*background: linear-gradient(45deg, #000000, #4B3300, #8B5E00, #000000);*/
@@ -52,8 +51,8 @@
 
     .btn:hover {
         cursor:pointer;
-        border: 4px solid rgb(144, 196, 170);
-        color:rgb(144, 196, 170);
+        border: 4px solid var(--cor-segundaria);
+        color:var(--cor-segundaria);
     }
 
     .progresso-div {
@@ -95,7 +94,7 @@
         left: 25%;
         height:6px;
         width: 0%;
-        background-color: rgb(144, 196, 170);
+        background-color: var(--cor-segundaria);
         z-index: 1;
         transition: 1s all;
     }
@@ -115,7 +114,7 @@
 
 
     .etapa-progresso.ativo{
-        border: 3px solid rgb(144, 196, 170);
+        border: 3px solid var(--cor-segundaria);
 
     }
 
@@ -126,8 +125,6 @@
         color: var(--tema);
 
     }
-
-
 
     .tela {
         position: relative;
@@ -143,7 +140,7 @@
         width: 100%;
         height: 100%;
     }
-}
+
 
 @media screen and (max-width: 500px) {
     /* Para mobile */
