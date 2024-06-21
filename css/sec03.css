@@ -239,38 +239,10 @@
         left: 26%;
         height:3px;
         width: 0%;
-        background-color: #E8F360;
+        background-color: var(--cor-segundaria);
         z-index: 1;
         transition: 1s all;
     }
-
-    .etapa-progresso {
-        width:35px;
-        height: 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--tema);
-        border: 3px solid var(--tema);
-        border-radius: 50%;
-        z-index: 2;
-        transition: 1s;
-    }
-
-
-    .etapa-progresso.ativo{
-        border: 3px solid #E8F360;
-
-    }
-
-    .btn.desabilitado {
-        cursor: not-allowed;
-        /*background-color: gray;*/
-        border: 3px solid gray;
-        color: var(--tema);
-
-    }
-
 
 
     .tela {
