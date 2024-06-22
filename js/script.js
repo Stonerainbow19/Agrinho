@@ -108,29 +108,23 @@ const pagina = ()=> {
 
     switch(etapaAtual) {
         case 1:
-            //tela.src = 'html/agricultura.html';
-            tela.src = 'https://pt.wikipedia.org/wiki/Agricultura';
+            tela.src = 'html/agricultura.html';
             break
         case 2:
-            //tela.src = 'html/pecuaria.html';
-            tela.src = 'https://pt.wikipedia.org/wiki/Pecu%C3%A1ria';
-            
+            tela.src = 'html/pecuaria.html';
             break
         case 3:
-            //tela.src = 'html/transporte.html';
-            tela.src = 'https://pt.wikipedia.org/wiki/Transporte';
+            tela.src = 'html/transporte.html';
             break
         case 4:
-            //tela.src = 'html/industria.html';
-            tela.src = 'https://pt.wikipedia.org/wiki/Ind%C3%BAstria';
+            tela.src = 'html/industria.html';
             break
         case 5:
-            //tela.src = 'html/tec-campo.html';
-            tela.src = 'https://elysios.com.br/blog/10-tecnologias-para-o-campo-que-estao-impactando-toda-a-cadeia-de-valor-agricola-do-plantio-ate-a-agroindustria/';
+            tela.src = 'html/tec-campo.html';
             break
         case 6:
-            //tela.src = 'html/questionario.html';
-            tela.src = 'https://forms.gle/AuEppmqJJi8WqQscA';
+            tela.src = 'html/questionario.html';
+
             
         
 }
