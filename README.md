@@ -8,9 +8,3 @@
 
 
 <p>Esse site foi desenvolvido com responsividade de tela, como apresentado abaixo</p>
-
-<p>Desktop</p>
-<img src="img/site.png" > 
-
-<p>Mobile</p>
-<img src="img/site-mobile.jpg" width="500" height="auto">
