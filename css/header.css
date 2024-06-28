@@ -74,38 +74,46 @@
         top: 15px;
     }
 
+    
 
     .container-menu a {
         color: black;
         text-decoration: none;
-
     }
 
     .lista {
-        display: none;
-        position:absolute;
-        top: 100%;
+        display: block;
         background-color: white;
         width: 100%;
         padding: 20px 0;
         text-align: center;
-        z-index: 40000;
+
 
     }
 
-    #checkbox-menu:checked ~ .lista {
-        display: block;
+    #menu {
+        display: none;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.733);
+        text-align: center;
+        transition: 1s ease-in-out;
+    }
+
+    #menu a {
+        color: black;
+        text-decoration: none;
     }
 
     #checkbox-menu {
-        display: none;
+       display: none;
     }
 
     .lista-item {
-        padding: 12px 0;
-        display: none;
+        padding: 6px 0;
+        display: block;
     }
 
+    
 
 
 

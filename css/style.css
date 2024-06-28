@@ -13,12 +13,12 @@
 
 :root {
     --estrela:#fff;
-    --cor_da_fonte: #ffffff;
+    --cor_da_fonte: #ffffff;    
     --tema:#ffffff;
-    --cor-principal: rgb(147, 236, 217);
-    --cor-segundaria: rgb(13, 155, 100);
-    --cor-terciaria: #224b42;
-    
+    --cor-principal: #c9fad7;
+    --cor-segundaria: #7b9e3b;
+    --cor-terciaria:  #93cfa7;
+    --cor-quartiaria: #66c46e;
 }
 
 html {
@@ -30,6 +30,7 @@ body {
     width: 100%;
     background-repeat: no-repeat;
     color: var(--cor_da_fonte);
+    background-color: var(--tema);
 
     /*font-family: 'Montserrat1', sans-serif;*/
 

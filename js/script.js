@@ -6,23 +6,23 @@
                                                                
 let time  = new Date()
 let hour = time.getHours()
-//let hour = 10
-//let hour = 18
-//let hour = 22
+//hour = 10
+//hour = 18
+//hour = 22
 
 const section = document.getElementById("sec01")
 
 if (hour >= 6 && hour <= 16){
-   document.body.style.background = "linear-gradient(180deg, #0093E9 0%, #80D0C7 100%)"
+   document.body.style.background = "linear-gradient(180deg, #0093E9 0%,  #75cf65 25%)"
     document.documentElement.style.setProperty('--estrela', 'transparent' )
 
 }
 else if (hour >= 17 && hour <= 19){
-    document.body.style.background = 'linear-gradient(#0093E9 0%, #f14b0a 50% )'
+    document.body.style.background = 'linear-gradient(180deg, #0093E9 0%,  #75cf65 25%)'
     document.documentElement.style.setProperty('--estrela', 'transparent' )
 }
 else {
-    document.body.style.background= 'linear-gradient(178.7deg, rgb(1, 36, 80) 0%,  rgba(126,184,253,1) 95.3% )'
+    document.body.style.background= 'linear-gradient(178.7deg, rgb(1, 36, 80) 0%, #75cf65 45%)'
     document.documentElement.style.setProperty('--estrela', '#ffffff')
 }
 
@@ -206,9 +206,18 @@ function cabecalhoDesativado(){
 const menu = document.getElementById('menu');
 const menuHamburguer = document.getElementById('checkbox-menu');
 
-/*
-if (menuHamburguer.checked) {
-    menu.style.margin = ''
+
+function menuCLick(){
+    if (menuHamburguer.checked){
+        header.style.backgroundColor = 'white';
+        envelope.src='../img/envelope.png';
+        menu_barra1.style.backgroundColor = 'black';
+        menu_barra2.style.backgroundColor = 'black';
+        menu_barra3.style.backgroundColor = 'black';
+        menu.style.display = 'block'
+
+    }else {
+        menu.style.display = 'none'
+    }
 }
-*/
 
